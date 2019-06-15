@@ -18,10 +18,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <LINK rel=StyleSheet href="css/imagenes.css" type="text/css">
-    <LINK rel=StyleSheet href="css/menu.css" type="text/css">
+    <LINK rel=StyleSheet href="{{asset(css/imagenes.css)}}" type="text/css">
+    <LINK rel=StyleSheet href="{{asset(css/menu.css)}}" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="{{asset(css/fontello.css)}}">
 </head>
 <body>
     <div id="app">
