@@ -10,18 +10,18 @@
     <title>InfoKitchen</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ URL::asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <LINK rel=StyleSheet href="{{asset(css/imagenes.css)}}" type="text/css">
-    <LINK rel=StyleSheet href="{{asset(css/menu.css)}}" type="text/css">
+    <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet">
+    <LINK rel=StyleSheet href="{{URL::asset('css/imagenes.css')}}" type="text/css">
+    <LINK rel=StyleSheet href="{{URL::asset('css/menu.css')}}" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link rel="stylesheet" type="text/css" href="{{asset(css/fontello.css)}}">
+    <link rel="stylesheet" type="text/css" href="{{URL::asset('css/fontello.css')}}">
 </head>
 <body>
     <div id="app">
