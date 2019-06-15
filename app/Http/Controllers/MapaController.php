@@ -23,7 +23,14 @@ class MapaController extends Controller
    public function store(Request $request)
     {
        
-        reserva::create($request->all());
+        $map=new reserva();
+        $map->nombre = $request->get('nombre');
+        $map->apellido = $request->get('apellido');
+        $map->dni = $request->get('dni'); 
+        $map->acom = $request->get('acompañantes');
+        $map->fecha = $request->get('fecha');  
+        $map->hora = $request->get('hora');     
+        $map->save();
         return redirect('/home');
 
         

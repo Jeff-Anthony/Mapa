@@ -36,7 +36,7 @@
                               </span>
                           @enderror
                  <h4>Acompañantes</h4>
-               <input id="acom" type="text" class="form-control @error('acom') is-invalid @enderror"  value="1" required autocomplete="acom" autofocus type="txt" name="acompañantes" max="10" min="0">
+               <input id="acom" type="text" class="form-control @error('acom') is-invalid @enderror"  value="{{ old('acom') }}" required autocomplete="acom" autofocus type="txt" name="acompañantes">
                           @error('acom')
                               <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
